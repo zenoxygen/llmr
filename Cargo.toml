@@ -1,0 +1,10 @@
+[package]
+name = "llmr"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.95"
+clap = { version = "4.5.23", features = ["derive"] }
+ignore = "0.4.23"
+tiktoken-rs = "0.6.0"
